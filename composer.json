@@ -1,0 +1,30 @@
+{
+    "name": "lurique/api_cep",
+    "description": "Api de cep",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Lurique\\ApiCep\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Lurique",
+            "email": "LuriqueGon@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php" : ">7.2.5"
+    },
+    "autoload":{
+        "psr-0":{
+            "Search" : "src/"
+        },
+        "psr-4":{
+            "Src\\ApiCEP\\": "src/"
+        }
+    }
+
+}
